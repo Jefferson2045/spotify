@@ -6,7 +6,7 @@ struct SearchComponentView: View {
     var body: some View {
         
         HStack{
-            Image("arrow_back")
+            Image("arrow_back") 
                 .frame(width: 24, height: 24)
                 .padding(EdgeInsets(top: 0, leading: 12, bottom: 0, trailing: 0))
             TextField("Buscar en Spotify", text: $searchText)
